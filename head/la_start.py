@@ -144,4 +144,5 @@ with client:
 
         formatted_time = f"{hours_str}, {minutes_str}, {seconds_str}"
 
-        loop.run_until_complete(update_settings(formatted_time, stop_count, sent_messages))
+
+        loop.run_until_complete(sent_messages())
